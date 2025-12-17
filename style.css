@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(45deg, red, blue);
+  background-repeat: no-repeat;
+  background-size: cover; /* s’adapte à la hauteur réelle */
+}
+
+
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.frame {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.downloadBtn {
+  position: absolute;
+  border-radius: 10px;
+  border: none;
+  visibility: hidden;
+}
+
+.title2 {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.NthngHere {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
